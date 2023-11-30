@@ -1,10 +1,11 @@
-import { SafeAreaView, Text } from 'react-native';
-import SignUp from '@views/auth/SignUp';
-
+import SignUpForm from '@views/components/SignUpForm';
+import React from 'react';
+import { SafeAreaView } from 'react-native';
 const App = () => {
-  return <SafeAreaView>
-    <SignUp />
-  </SafeAreaView>
-}
+  return (
+    <SafeAreaView>
+      <SignUpForm />
+    </SafeAreaView>
+  );
+};
 export default App;
-
